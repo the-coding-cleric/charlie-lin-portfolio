@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie Lin Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body>
+      <header>
+        <div class="logo">
+          <img src="images/logo_no_buffer.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class ="nav__link ">Home</a></li>
+            <li class="nav__item"><a href="#services" class ="nav__link ">My Skills</a></li>
+            <li class="nav__item"><a href="#about" class ="nav__link ">About Me</a></li>
+            <li class="nav__item"><a href="#work" class ="nav__link ">My Work</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Introduction -->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Charlie Lin</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
+        <img src="images/devcharlie.png" alt="picture of Charlie smiling" class="intro__img">
+      </section>
+      <!-- My Services  -->
+      <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Skills</h2>
+          <div class="services">
+            <div class="service">
+              <h3>Back End Development</h3>
+            <p class="skills"> Python Mongoose Django SQL
+              </p>
+            </div>
+            <div class="service">
+              <h3>Front End Development</h3>
+              <p class="skills"> Javascript React Vue HTML CSS 
+              </p>
+            </div>
+            
+          </div>
+          <a href="#work" class="btn">My Work</a>
+      </section>
+      <!-- About Me -->
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I Am</h2>
+        <p class="section__subtitle section__subtitle--about">Full stack developer based out of ATX</p>
+        <div class="about-me__body">
+          <p> I am a software engineer with a degree in English and a background of high-paced customer service roles. I meet each opportunity with gusto, continuing my proven perfomance history of engaging customers and boosting morale amongst my co-workers in stressful times. I incorporate my dynamic, colorful, multi-faceted background into my approach to web development and teamwork, resulting in a positive, collaborative environment and beautiful, functional, imaginative websites and applications.
+          </p>
+          <p> When I am not coding, I enjoy playing collaborative role-playing games such as Dungeons and Dragons, reading fiction, rock-climbing, and baking magical desserts for friends and family.   </p>
+          </div>
+          <img src="images/charlie-dramatic.png" alt="Charlie in dramatic pose" class="about-me__img">
+          </section>
+          <!-- My Work -->
+          <section class="my-work" id="work">
+            <h2 class="section__title">My Work</h2>
+            <p class="section__subtitle--work">A Selection Of My Range Of Work</p>
+              <div class="portfolio">
+                <!-- portfolio item 1 -->
+                <a href="#" class="portfolio__item">
+                  <img src="images/invasion-salon-home.png" alt="invasion salon home page" class="portfolio__img">
+                </a>
+                  <!-- portfolio item 2 -->
+                  <a href="#" class="portfolio__item">
+                    <img src="images/invasion-salon-services.png" alt="invasion salon services page"  class="portfolio__img">
+                  </a>
+                  <!-- portfolio item 3 -->
+                  <a href="#" class="portfolio__item">
+                    <img src="images/creaturecollab.png" alt="creature collab home page"  class="portfolio__img">
+                  </a>
+                  <!-- portfolio item 4 -->
+                  <a href="#" class="portfolio__item">
+                    <img src="images/ccevents.png" alt="creature collab events page"  class="portfolio__img">
+                  </a>
+                  <!-- portfolio item 5 -->
+                  <a href="#" class="portfolio__item">
+                    <img src="images/pockets-full-and-posing.png" alt="pockets full and posing home page"  class="portfolio__img">
+                  </a>
+                  <!-- portfolio item 6 -->
+                  <a href="#" class="portfolio__item">
+                    <img src="images/pocketsdept.png" alt="pockets department page"  class="portfolio__img">
+                  </a>
+                  <!-- portofolio item 7 -->
+                  <a href="#" class="portfolio__item">
+                    <img src="images/reveurs-homepage.png" alt="reveurs collective home page"  class="portfolio__img">
+                  </a>
+                  <!-- portfolio item 8 -->
+                  <a href="#" class="portfolio__item">
+                    <img src="images/reveurs-locations.png" alt="reveurs locations page"  class="portfolio__img">
+                  </a>
+              </div>
+          </section>
+          <!-- Footer -->
+          <footer class="footer">
+            <a href="mailto:charlie@thecodingcleric.com" class="footer__link">charlie@thecodingcleric.com</a>
+            <ul class="social-list">
+              
+              
+              <li class="social-list__item">
+                  <a class="social-list__link" href="https://www.linkedin.com/in/charlie-lin1988/">
+                  LinkedIn
+                  </a>
+              </li>
+              <li class="social-list__item">
+                  <a class="social-list__link" href="https://github.com/charlielin1988">
+                    <i class="fa-brands fa-github"></i> GitHub
+                  </a>
+              </li>
+          </ul>
+      </footer>
+          <script src="js/index.js"></script>
+    </body>
+  </html>
+</DOCTYPE>
