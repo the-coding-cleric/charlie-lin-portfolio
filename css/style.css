@@ -5,21 +5,20 @@
 }
 /* custom properties, update for own design */
 :root {
-  --ff-primary: 'Source Sans Pro', sans-serif;
-  --ff-secondary: 'Source Code Pro', monospace;
-
+  --ff-primary: 'Didact Gothic';
+  --ff-secondary: 'Poiret One';
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-light: #fff;
-  --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-light: #f3ddf6;
+  --clr-dark: #382c47;
+  --clr-accent: #c53364;
 
-  --fs-h1: 3rem;
-  --fs-h2: 2.25rem;
-  --fs-h3: 1.25 rem;
-  --fs-body: 1rem;
-
+  --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.25rem;
+  
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
@@ -29,7 +28,7 @@
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
-    --fs-body: 1.125rem;
+    --fs-body: 1.25rem;
   }
 }
 /* General Styles */
@@ -71,11 +70,12 @@ strong {
   color: var(--clr-dark);
   text-decoration: none;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: var(-fw-bold);
+  font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  
 }
 
 .btn:hover {
@@ -89,6 +89,7 @@ h2,
 h3 {
   line-height: 1;
   margin: 0;
+  font-family: var(--ff-secondary);
 }
 
 h1 {
@@ -120,7 +121,7 @@ h3 {
 .section__subtitle--about {
   background: var(--clr-accent);
   padding: 0.25em 1em;
-  font-family: var(--ff-secondary);
+
   margin-bottom: 1em;
 }
 /* header */
@@ -131,7 +132,7 @@ header {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 180px;
 }
 
 .nav {
@@ -278,10 +279,12 @@ header {
   text-align: center;
 }
 
+
 .skills {
-  list-style: none;
-  word-spacing: 1rem;
+  word-spacing: 1em;
+  
 }
+
 .section__title--services {
   color: var(--clr-accent);
   position: relative;
@@ -304,6 +307,7 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
+  color: var(--clr-light)
 }
 
 @media (min-width: 800px) {
@@ -369,6 +373,7 @@ header {
   color: var(--clr-accent);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
+  font-family:var(--ff-secondary);
 }
 
 .my-work {
@@ -416,6 +421,7 @@ header {
 
 .footer__link {
   font-weight: var(--fw-bold);
+  
 }
 
 .footer__link:hover,
@@ -437,6 +443,7 @@ header {
 
 .social-list__item {
   margin: 0 0.5em;
+  font-size: var(--fs-h3);
 }
 
 .social-list__link {
@@ -447,4 +454,10 @@ header {
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }

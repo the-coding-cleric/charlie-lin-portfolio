@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlie Lin Portfolio Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link href="css/all.css" rel="stylesheet">
     
     <!-- Update these with your own fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poiret+One&display=swap" rel="stylesheet">
 
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </head>
     <body>
       <header>
@@ -41,14 +42,16 @@
         <h2 class="section__title section__title--services">Skills</h2>
           <div class="services">
             <div class="service">
-              <h3>Back End Development</h3>
-            <p class="skills"> Python Mongoose Django SQL
+              <h3 class="service-skill-title">Back End Development</h3>
+              <p class="skills"> Python Mongoose Django SQL
               </p>
+              
             </div>
             <div class="service">
-              <h3>Front End Development</h3>
+              <h3 class="service-skill-title">Front End Development</h3>
               <p class="skills"> Javascript React Vue HTML CSS 
               </p>
+              
             </div>
             
           </div>
@@ -71,37 +74,45 @@
             <p class="section__subtitle--work">A Selection Of My Range Of Work</p>
               <div class="portfolio">
                 <!-- portfolio item 1 -->
-                <a href="#" class="portfolio__item">
-                  <img src="images/invasion-salon-home.png" alt="invasion salon home page" class="portfolio__img">
+                <a href="portfolio-item2.html" class="portfolio__item">
+                  <img src="images/grid-game-home.png" alt=" avatar themed grid game"class="portfolio__img">
                 </a>
                   <!-- portfolio item 2 -->
-                  <a href="#" class="portfolio__item">
-                    <img src="images/invasion-salon-services.png" alt="invasion salon services page"  class="portfolio__img">
-                  </a>
+                  <!-- <a href="#" class="portfolio__item">
+                    <img src="images/grid-game-start.png" alt="avatar themed grid game start page"  class="portfolio__img">
+                  </a> -->
                   <!-- portfolio item 3 -->
-                  <a href="#" class="portfolio__item">
-                    <img src="images/creaturecollab.png" alt="creature collab home page"  class="portfolio__img">
+                  <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/invasion-home.png" alt="invasion salon home page"  class="portfolio__img">
                   </a>
                   <!-- portfolio item 4 -->
-                  <a href="#" class="portfolio__item">
-                    <img src="images/ccevents.png" alt="creature collab events page"  class="portfolio__img">
-                  </a>
+                  <!-- <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/invasion-services.png" alt="invasion salon services menu"  class="portfolio__img">
+                  </a> -->
                   <!-- portfolio item 5 -->
-                  <a href="#" class="portfolio__item">
-                    <img src="images/pockets-full-and-posing.png" alt="pockets full and posing home page"  class="portfolio__img">
+                  <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="images/creaturecollab.png" alt="creature collab home" class="portfolio__img">
                   </a>
                   <!-- portfolio item 6 -->
-                  <a href="#" class="portfolio__item">
-                    <img src="images/pocketsdept.png" alt="pockets department page"  class="portfolio__img">
-                  </a>
+                  <!-- <a href="#" class="portfolio__item">
+                    <img src="images/ccevents.png" alt="creature collab events page"  class="portfolio__img">
+                  </a> -->
                   <!-- portofolio item 7 -->
-                  <a href="#" class="portfolio__item">
-                    <img src="images/reveurs-homepage.png" alt="reveurs collective home page"  class="portfolio__img">
+                  <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="images/pockets-full-and-posing.png" alt="pockets full and posing home page"  class="portfolio__img">
                   </a>
-                  <!-- portfolio item 8 -->
-                  <a href="#" class="portfolio__item">
+                  <!-- portofolio item 8 -->
+                  <!-- <a href="#" class="portfolio__item">
+                    <img src="images/pocketsdept.png" alt="pockets full and posing department page"  class="portfolio__img">
+                  </a> -->
+                  <!-- portfolio item 9 -->
+                  <a href="portfolio-item5.html" class="portfolio__item">
+                    <img src="images/reveurs-homepage.png" alt="reveurs home page"  class="portfolio__img">
+                  </a>
+                  <!-- portfolio item 10 -->
+                  <!-- <a href="#" class="portfolio__item">
                     <img src="images/reveurs-locations.png" alt="reveurs locations page"  class="portfolio__img">
-                  </a>
+                  </a> -->
               </div>
           </section>
           <!-- Footer -->
@@ -112,12 +123,13 @@
               
               <li class="social-list__item">
                   <a class="social-list__link" href="https://www.linkedin.com/in/charlie-lin1988/">
-                  LinkedIn
+                  
+                  <i class="fab fa-linkedin"></i> 
                   </a>
               </li>
               <li class="social-list__item">
                   <a class="social-list__link" href="https://github.com/charlielin1988">
-                    <i class="fa-brands fa-github"></i> GitHub
+                    <i class="fab fa-github"></i> 
                   </a>
               </li>
           </ul>

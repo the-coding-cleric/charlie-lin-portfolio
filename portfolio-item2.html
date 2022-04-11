@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avatar Grid Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link href="css/all.css" rel="stylesheet">
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poiret+One&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo_no_buffer.png" alt="">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html" class ="nav__link ">Home</a></li>
+        <li class="nav__item"><a href="index.html#services" class ="nav__link ">My Skills</a></li>
+        <li class="nav__item"><a href="index.html#about" class ="nav__link ">About Me</a></li>
+        <li class="nav__item"><a href="index.html#work" class ="nav__link ">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">Javascript App:  <strong>Avatar Grid Game</strong></h1>
+    <p class="section__subtitle section__subtitle--intro"> A 6 x 7 supergrid game with a fun "Avatar The Last Air Bender" design theme. </p> 
+    <img src="images/grid-game-home.png" alt="grid game home" class="intro__img">
+  </section>
+  <div class="portfolio-item-individual">
+    <p>The Avatar Grid Game is my first coding project. Having a mere two weeks of coding instruction, I designed this interactive game using HTML, CSS, and Javascript.</p>
+    <img src="images/grid-game-start.png" alt="grid game start">
+    <p>This game includes a home page with detailed instructions on gameplay and how to win. It also includes a separate game page and allows for navigation back and forth between the home page and the game page. I chose the Avatar theme for my styling and background story because the show is a shared favorite between my child and me. </p> 
+    <img src="images/grid-game-turn.png" alt="grid game turn">
+    <p>The most challenging bit of code was accurately writing the Javascript logic for the conditionals to check for a winner and disabling further gameplay once a winner has been determined. To ensure I included every possible winning combination, I drew out a grid on a piece of paper, highlighted and color-coded combinations according to direction, and then copied these spatial positions into my conditional statement. This project taught me the importance of whiteboarding and planning out my code, a skill I took with me into every subsequent homework and project assignment thereafter. </p> 
+    <img src="images/grid-game-results.png" alt="grid game result" />
+
+  </div>
+  <footer class="footer">
+    <a href="mailto:charlie@thecodingcleric.com" class="footer__link">charlie@thecodingcleric.com</a>
+    <ul class="social-list">
+      
+      
+      <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/charlie-lin1988/">
+          
+          <i class="fab fa-linkedin    "></i> 
+          </a>
+      </li>
+      <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/charlielin1988">
+            <i class="fab fa-github    "></i> 
+          </a>
+      </li>
+  </ul>
+</footer>
+  <script src="js/index.js"></script>
+  
+</body>
+</html>
